@@ -1,0 +1,410 @@
+@font-face {
+  font-family: "Impact";
+  src: url(./sources/assets/fonts/impact.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Metrophobic";
+  src: url(./sources/assets/fonts/Metrophobic-Regular.ttf) format("truetype");
+}
+.footer {
+  background-color: #7c2020;
+  width: 100%;
+  display: grid;
+  color: #fff;
+  font-family: "Metrophobic";
+  font-size: 10px;
+  grid-template-areas: "pages" "pages" "pages" "coordonnees" "coordonnees" "coordonnees" "plus" "plus" "plus" "copyright";
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 25px;
+  text-align: center;
+  padding: 5%;
+}
+.footer__pages {
+  display: grid;
+  row-gap: 25px;
+  grid-area: pages;
+}
+.footer__coordonnees {
+  display: grid;
+  row-gap: 25px;
+  grid-area: coordonnees;
+}
+.footer__plus {
+  display: grid;
+  grid-area: plus;
+}
+.footer__item {
+  color: #fff;
+  text-decoration: none;
+}
+.footer__logo {
+  font-family: "Impact";
+  font-size: 32px;
+}
+.footer__button {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  border: solid 4px #fff;
+  max-width: 60%;
+  border-radius: 3px;
+  justify-self: center;
+  padding: 2% 10%;
+}
+.footer__copyright {
+  grid-column: 1/5;
+  font-size: 8px;
+  grid-area: copyright;
+}
+
+header {
+  background-color: #7c2020;
+  width: 100vw;
+  margin: 0;
+  overflow: hidden;
+}
+
+#nav-menu {
+  font-size: 12px;
+}
+
+a {
+  font-family: "Metrophobic";
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  width: 100%;
+}
+.navbar__logo {
+  font-family: "Impact";
+  font-size: 32px;
+  color: #fff;
+  text-align: left;
+}
+.navbar__burger {
+  text-align: right;
+}
+
+.nouvelles {
+  width: 100%;
+}
+.nouvelles__boxtitre {
+  display: flex;
+  justify-content: space-between;
+}
+.nouvelles__titre {
+  display: inline-block;
+  align-self: self-end;
+  margin: 0;
+}
+.nouvelles__lien {
+  display: inline-block;
+  color: #5180AB;
+  text-decoration: none;
+  align-self: self-end;
+}
+.nouvelles__grid-container {
+  display: grid;
+  grid-template-rows: repeat(auto-fill, 1fr);
+  gap: 20px;
+  background-color: #C7C7C7;
+  padding: 20px;
+}
+.nouvelles__Item {
+  background-color: #D9D9D9;
+  display: grid;
+  grid-template-areas: "image image titre titre" "image image content content ";
+}
+.nouvelles__img {
+  text-align: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #1A1423;
+  grid-area: image;
+}
+.nouvelles__titreCarte {
+  text-align: center;
+  grid-area: titre;
+}
+.nouvelles__paraCarte {
+  text-align: center;
+  grid-area: content;
+}
+.nouvelles__filtrer {
+  background-color: #1C5D99;
+  color: #fff;
+  padding: 15px;
+}
+
+.hero {
+  width: 100%;
+  height: 90vw;
+  max-height: 1000px;
+  overflow: hidden;
+  border: 1px solid #1A1423;
+  margin-bottom: 20px;
+}
+.hero__swipper {
+  height: 100%;
+}
+.hero__nouvelles {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-y: hidden;
+}
+.hero__nouvelles img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+  -o-object-position: top;
+     object-position: top;
+}
+.hero__nouvelles--1 {
+  width: 100%;
+  height: 100%;
+}
+.hero__nouvelles--2 {
+  width: 100%;
+  height: 100%;
+}
+.hero__nouvelles--3 {
+  width: 100%;
+  height: 100%;
+}
+.hero__arrowRight, .hero__arrowLeft {
+  color: #1A1423;
+}
+.hero__text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  background-color: rgba(99, 99, 99, 0.471);
+  color: white;
+}
+.hero__text h2 {
+  text-align: center;
+}
+
+.swiper-pagination-bullet-active {
+  background: #1A1423;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+section:not(:first-of-type) {
+  padding: 0 5%;
+}
+
+@media screen and (min-width: 768px) {
+  a, p, button {
+    font-size: 12px;
+  }
+  .temoignages__titre {
+    font-size: 12px;
+    color: #1A1423;
+  }
+  .navbar {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    width: 100%;
+    padding: 0 5%;
+  }
+  .navbar__logo {
+    font-family: "Impact";
+    font-size: 32px;
+    color: #fff;
+    text-align: left;
+  }
+  .navbar__burger {
+    grid-area: menu;
+    display: none;
+  }
+  .navbar__collapse {
+    text-align: right;
+  }
+  .navbar__accueil, .navbar__nouvelles, .navbar__services, .navbar__equipes, .navbar__FAQ, .navbar__propos {
+    color: #fff;
+    font-size: 12px;
+    font-family: "Metrophobic";
+  }
+  .hero {
+    max-height: 404px;
+  }
+  .nouvelles {
+    width: 100%;
+  }
+  .nouvelles__boxtitre {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nouvelles__titre {
+    display: inline-block;
+    align-self: self-end;
+    margin: 0;
+  }
+  .nouvelles__lien {
+    display: inline-block;
+    color: #5180AB;
+    text-decoration: none;
+    align-self: self-end;
+  }
+  .nouvelles__grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto-fill, 1fr);
+    gap: 20px;
+    background-color: #C7C7C7;
+    padding: 20px;
+  }
+  .nouvelles__Item {
+    background-color: #D9D9D9;
+  }
+  .nouvelles__img {
+    text-align: center;
+    background-size: contain;
+    width: 100%;
+    border: 1px solid #1A1423;
+    height: 50%;
+  }
+  .nouvelles__titreCarte {
+    text-align: center;
+  }
+  .nouvelles__paraCarte {
+    text-align: center;
+  }
+  .nouvelles__filtrer {
+    background-color: #1C5D99;
+    color: #fff;
+    padding: 15px;
+  }
+  .footer {
+    grid-template-areas: "pages coordonnees plus" "pages coordonnees plus" "pages coordonnees plus" "pages coordonnees plus" "copyright copyright copyright";
+    row-gap: 50px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  a, p, button {
+    font-size: 24px;
+  }
+  header {
+    display: block;
+    text-align: center;
+  }
+  .navbar {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    width: 100%;
+  }
+  .navbar__logo {
+    grid-area: logo;
+    font-family: "Impact";
+    font-size: 60px;
+    color: #fff;
+    text-align: left;
+  }
+  .navbar__burger {
+    grid-area: menu;
+    display: none;
+  }
+  .navbar__collapse {
+    grid-area: links;
+    width: 100%;
+  }
+  .navbar__accueil, .navbar__nouvelles, .navbar__services, .navbar__equipes, .navbar__FAQ, .navbar__propos {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Metrophobic";
+  }
+  .hero {
+    max-height: 565px;
+  }
+  .nouvelles {
+    width: 100%;
+  }
+  .nouvelles__boxtitre {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nouvelles__titre {
+    display: inline-block;
+    align-self: self-end;
+    margin: 0;
+  }
+  .nouvelles__lien {
+    display: inline-block;
+    color: #5180AB;
+    text-decoration: none;
+    align-self: self-end;
+  }
+  .nouvelles__grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(auto-fill, 1fr);
+    gap: 20px;
+    background-color: #C7C7C7;
+    padding: 20px;
+  }
+  .nouvelles__Item {
+    background-color: #D9D9D9;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .nouvelles__img {
+    text-align: center;
+    background-size: cover;
+    width: 100%;
+    border: 1px solid #1A1423;
+    height: 60%;
+    grid-area: image;
+  }
+  .nouvelles__titreCarte {
+    text-align: center;
+    padding-top: 10px;
+    grid-area: titre;
+  }
+  .nouvelles__paraCarte {
+    text-align: center;
+    grid-area: content;
+  }
+  .nouvelles__filtrer {
+    background-color: #1C5D99;
+    color: #fff;
+    padding: 15px;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*fix navbar*/
+.navbar-expand-md {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.body {
+  /* max-width: 1400px;
+   margin: 0 auto;*/
+  margin: 0;
+}
+
+body {
+  background-color: rgb(40, 40, 40);
+}/*# sourceMappingURL=style.css.map */

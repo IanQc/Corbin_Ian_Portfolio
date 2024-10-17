@@ -1,0 +1,61 @@
+@use "./variables";
+
+.footer {
+    background-color: #7c2020;
+    width: 100%;
+    display: grid;
+    color: variables.$white;
+    font-family: variables.$FontText;
+    font-size: variables.$mobileFontSizeText;
+    grid-template-areas: 
+        "pages"
+        "pages"
+        "pages"
+        "coordonnees"
+        "coordonnees"
+        "coordonnees"
+        "plus"
+        "plus"
+        "plus"
+        "copyright";
+    column-gap: 20px;
+    row-gap: 25px;
+    text-align: center;
+    padding:5%;
+    &__pages {
+        display: grid;
+        row-gap: 25px;
+        grid-area: pages;
+    }
+    &__coordonnees {
+        display: grid;
+        row-gap: 25px;
+        grid-area: coordonnees;
+    }
+    &__plus {
+        display: grid;
+        grid-area: plus;
+    }
+    &__item {
+        color: variables.$white;
+        text-decoration: none;
+    }
+    &__logo {
+        font-family: variables.$FontLogo;
+        font-size: variables.$mobileFontSizeLogo;
+    }
+    &__button {
+        background-color: variables.$rgbAlpha;
+        color: variables.$white;
+        border: solid 4px variables.$white;
+        max-width: 60%;
+        border-radius: 3px;
+        justify-self : center;
+        padding: 2% 10%;
+    }
+    &__copyright {
+        grid-column: 1 / 5;
+        font-size: variables.$mobileFontSizeCopyright;
+        grid-area: copyright;
+    }
+}
