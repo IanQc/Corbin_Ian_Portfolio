@@ -3,10 +3,10 @@
 
 
 .Apropos{
-
+    width: 100%;
     &__container{
         background-color: rgba(99, 99, 99, 0.471);
-        height: 80vh;
+        height: 60vh;
     }
     &__content{
         width: 50%;
@@ -14,7 +14,16 @@
         width: 50%;
         word-wrap: break-word;
         line-height: 1.5;
-        margin: auto 0;
+       
+    }
+    &__img{
+        width: 50%;
+    }
+    img{
+        width : 50%;
+        height: 50%;
+        object-fit: contain;
+        object-position: top;
     }
 
 }

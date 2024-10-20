@@ -23,3 +23,18 @@ const swiperHero = new Swiper('.hero__swipper', {
     },
 });
 
+
+const unitySwiper = new Swiper('.unity__swiper', {
+  direction: 'horizontal',
+  loop: true,
+  autoplay: {
+      delay: 5000,
+  },
+  navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+  },
+});
+
+
+
