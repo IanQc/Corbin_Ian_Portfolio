@@ -3,6 +3,8 @@
 @use "partials-scss/navigationBar";
 @use "partials-scss/projet";
 @use "partials-scss/hero";
+@use "partials-scss/application";
+@use "partials-scss/apropos";
 
 @use "partials-scss/accueil";
 
@@ -31,4 +33,8 @@
 
 body{
 background-color: rgb(40, 40, 40);
+}
+
+h1{
+    color: white;
 }

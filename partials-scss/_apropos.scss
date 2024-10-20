@@ -1,0 +1,20 @@
+@use "variables";
+
+
+
+.Apropos{
+
+    &__container{
+        background-color: rgba(99, 99, 99, 0.471);
+        height: 80vh;
+    }
+    &__content{
+        width: 50%;
+        color: white;
+        width: 50%;
+        word-wrap: break-word;
+        line-height: 1.5;
+        margin: auto 0;
+    }
+
+}
