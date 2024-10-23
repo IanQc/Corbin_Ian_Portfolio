@@ -51,7 +51,8 @@
         max-height: 404px;
       }
 
-     .nouvelles {
+      .nouvelles {
+       
         width: 100%;
             &__boxtitre{
                 display: flex;
@@ -80,20 +81,26 @@
             }
             &__Item {
                 background-color: variables.$platinum;
-        
+                height: 100%;
+                display: flex;
+                flex-direction: column;
             }
             &__img {
                 text-align: center;
-                background-size: contain;
+                background-size: cover;
                 width: 100%;
                 border: 1px solid variables.$raisinBlack;
-                height: 50%;
+                height: 60%;
+                grid-area: image;
             }
             &__titreCarte{
                 text-align: center;
+                padding-top: 10px;
+                grid-area: titre;
             }
             &__paraCarte{
                 text-align: center;
+                grid-area: content;
             }
             &__filtrer {
                 background-color: variables.$lapisLazuli;

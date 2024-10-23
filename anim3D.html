@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ian Corbin Portfolio</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-dark navbar-expand-md">
+        <div class="container navbar__grid">
+            <!-- Logo à gauche -->
+            <a class="navbar-brand navbar__logo" href="index.html">
+                <span id="logo" class="nav-link">Ian Corbin</span>
+            </a>
+    
+            <!-- Burger à droite -->
+            <button class="navbar-toggler navbar__burger" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    
+        <!-- Navigation -->
+        <div id="mainNav" class="collapse navbar-collapse">
+            <ul id="nav-menu" class="navbar-nav d-flex w-100 justify-content-between">
+                <li class="nav-item navbar__accueil">
+                    <a href="index.html" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item navbar__nouvelles">
+                    <a href="page2.html" class="nav-link">Modélisation 3D</a>
+                </li>
+                <li class="nav-item navbar__nouvelles">
+                    <a href="page2.html" class="nav-link">Animation 3D</a>
+                </li>
+                <li class="nav-item navbar__nouvelles">
+                    <a href="page2.html" class="nav-link">Conception de jeux 3D</a>
+                </li>
+                <li class="nav-item navbar__nouvelles">
+                    <a href="page2.html" class="nav-link">Web</a>
+                </li>
+                <li class="nav-item navbar__services">
+                    <a href="Apropos.html" class="nav-link">A propos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+</header>
+
+<main class="body">
+    <section class="hero">
+        <div class="swiper hero__swipper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper hero__wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide hero__nouvelles hero__nouvelles--1">
+                        <img src="./sources/medias/background3.jpg" alt="">
+                        <div class="hero__text"><h2>Création et animation de paysage 3D</h2></div>
+                </div>
+                <div class="swiper-slide hero__nouvelles hero__nouvelles--2"><a href="modelisation_medieval.html"><img src="./sources/medias/forge_medievale_vue_1_rendu_final.jpg" alt=""></a><div class="hero__text"><h2>Modélisation Médiéval</h2></div></div>
+                <div class="swiper-slide hero__nouvelles hero__nouvelles--3"><a href="ConceptionUnity.html"><img src="./sources/medias/alxis jdq.png" alt=""></a><div class="hero__text"><h2>Création d'un jeux sur Unity</h2></div></div>
+                <div class="swiper-slide hero__nouvelles hero__nouvelles--4"><a href="projet_star_wars\projet_web_01.html"><img src="./sources/medias/web_projet3.png" alt=""></a><div class="hero__text"><h2>Création d'une histoire à choix (HTML, CSS, JS)</h2></div></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination hero__pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev hero__arrowLeft"></div>
+            <div class="swiper-button-next hero__arrowRight"></div>
+        </div>
+    </section>
+<br>
+<br>
+    <section class="nouvelles">
+        <div class="nouvelles__boxtitre">
+            <h1 class="nouvelles__titre">Projets</h1> 
+        </div>
+
+        <div>
+            <div class="nouvelles__grid-container">
+                <div class="nouvelles__Item nouvelles__Item--01 portail">
+                    <img class="nouvelles__img nouvelles__img--01" src="./sources/medias/banniere.png" alt="">
+                    <h2 class="nouvelles__titreCarte">TP2 - Animation d'un portail</h2>
+                    <p class="nouvelles__paraCarte">Travail d'apprentissage d'animation de portail en particules immitant la sortie d'hyperespace de l'univers d'Halo</p>
+                </div>
+                <div class="nouvelles__Item nouvelles__Item--02 soldat">
+                    <img class="nouvelles__img nouvelles__img--02 " src="/sources/medias/background3.jpg" alt="">
+                    <h2 class="nouvelles__titreCarte">Soldat Solitaire</h2>
+                    <p class="nouvelles__paraCarte">Projet complet portant sur l'utilisation et la création d'animation 3D dans des environnements 3D</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    
+    
+</main>
+
+
+<footer class="footer">
+    <div class="footer__pages">
+        <a href="" class="footer__item">Accueil</a>
+        <a href="" class="footer__item">Projets</a>
+        <a href="" class="footer__item">A propos</a>
+    </div>
+    <div class="footer__coordonnees">
+        <p class="footer_item">- Me joindre</p>
+        <p class="footer_item">- Par téléphone :<br>(581) 446-1368
+        <p class="footer_item">- Par courriel :<br>ian.corbin.qc@gmail.com</p>
+    </div>
+    <div class="footer__plus">
+        <p class="footer_item">- Terrebonne</p>
+        <p class="footer_item">- Québec</p>
+        <p class="footer_item">- J6Y 1J8</p>
+    </div>
+    <div class="footer__copyright">
+        <p>@2024,Ian Corbin</p>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>

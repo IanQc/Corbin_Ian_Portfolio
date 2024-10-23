@@ -1,6 +1,7 @@
 @use "variables";
 
 .nouvelles {
+       
     width: 100%;
         &__boxtitre{
             display: flex;
@@ -20,6 +21,7 @@
         }
         &__grid-container{
             display: grid;
+            grid-template-columns: 1fr;
             grid-template-rows: repeat(auto-fill, 1fr);
             gap: 20px;
             background-color:variables.$silver;
@@ -28,21 +30,26 @@
         }
         &__Item {
             background-color: variables.$platinum;
-            display: grid;
-            grid-template-areas: 
-            "image image titre titre"
-            "image image content content ";
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s ease, filter 0.3s ease;
+            &:hover{
+                transform: scale(1.05);
+                filter: brightness(0.8);
+            }
         }
         &__img {
             text-align: center;
             background-size: cover;
             width: 100%;
-            height: 100%;
             border: 1px solid variables.$raisinBlack;
+            height: 60%;
             grid-area: image;
         }
         &__titreCarte{
             text-align: center;
+            padding-top: 10px;
             grid-area: titre;
         }
         &__paraCarte{
