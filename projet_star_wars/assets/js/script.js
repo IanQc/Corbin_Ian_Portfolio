@@ -53,7 +53,7 @@ const chapters = {
 		description: "Vos yeux scrutent intensément les écrans du cockpit, révélant l'impensable : le Chancelier Palpatine, en qui vous aviez placé une confiance aveugle, se révèle être un traître de la pire espèce. Son visage bienveillant dissimulait l'ombre d'une sinistre vérité : sa véritable identité est celle de Darth Sidious, le maître des Siths, orchestrant depuis l'ombre le chaos qui menace la galaxie.",
 		image: "./assets/images/information.jpg",
 		audio: "./assets/audio/i-am-the-senate.mp3",
-		audio2: "./assets/audio/musique_bad_palp.mp4",
+		audio2: "./assets/audio/musique_bad_palp.mp3",
 		local:"bureau",
 		boutons: [
 			{titre: "Prendre le couloir", destination: "couloir"}, {titre: "Prendre l'ascenseur", destination: "ascenceur"},
@@ -101,7 +101,7 @@ const chapters = {
 		description: "Vous êtes acclamé comme un héros en arrivant au temple Jedi. Cependant, l'Ordre 66 est donné par le Chancelier Palpatine/Darth Sidious, causant la mort de tous les Jedi, incluant vous.",
 		image: "./assets/images/order66.jpg",
 		audio: "./assets/audio/order66.mp3",
-		audio2:"./assets/audio/musique_bad_dooku.mp4",
+		audio2:"./assets/audio/musique_bad_dooku.mp3",
 		local:"justice",
 		boutons: [
 			{titre: "Recommencez", destination: "intro"}
@@ -174,7 +174,7 @@ const chapters = {
 		description: "Lors de votre tentative d'arrestation, Dooku révèle que le chancelier est en réalité Darth Sidious, mais l'information arrive trop tard. Le chancelier, dans un geste soudain, vous prend au dépourvu et décime impitoyablement tous ceux présents dans la pièce.",
 		image: "./assets/images/sidious.jpg",
 		audio: "./assets/audio/treason.mp3",
-		audio2:"./assets/audio/musique_bad_palp.mp4",
+		audio2:"./assets/audio/musique_bad_palp.mp3",
 		local:"arrestation",
 		boutons: [
 			{titre: "Recommencez", destination: "intro"}

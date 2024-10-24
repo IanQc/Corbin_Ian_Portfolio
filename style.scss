@@ -13,6 +13,8 @@
 
 @use "partials-scss/mediaQuery"; 
 
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -35,6 +37,7 @@
 
 body{
 background-color: rgb(40, 40, 40);
+overflow-x: hidden;
 }
 
 h1{

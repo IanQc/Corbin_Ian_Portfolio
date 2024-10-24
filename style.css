@@ -308,6 +308,10 @@ section {
   flex-direction: column-reverse;
   gap: 20px;
 }
+.unity__iframe {
+  width: 100%;
+  height: 1000px;
+}
 .unity__swiper {
   width: 100%;
   height: 400px;
@@ -364,6 +368,11 @@ section {
   display: flex;
   flex-direction: column-reverse;
   gap: 20px;
+}
+.unity2__iframe {
+  width: 50%;
+  max-height: 1000px;
+  align-self: center;
 }
 .unity2__swiper {
   width: 100%;
@@ -727,6 +736,7 @@ section:not(:first-of-type) {
 
 body {
   background-color: rgb(40, 40, 40);
+  overflow-x: hidden;
 }
 
 h1 {
