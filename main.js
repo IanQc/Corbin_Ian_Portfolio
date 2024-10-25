@@ -39,7 +39,7 @@ const unitySwiper = new Swiper('.unity__swiper', {
   direction: 'horizontal',
   loop: true,
   autoplay: {
-      delay: 5000,
+      delay: 3000,
   },
   navigation: {
       nextEl: '.swiper-button-next',
