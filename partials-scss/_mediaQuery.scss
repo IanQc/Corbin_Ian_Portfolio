@@ -427,6 +427,7 @@
         .swiper-button-prev,
         .swiper-button-next {
             color: variables.$raisinBlack; 
+            display: block;
         }
 
         .swiper-pagination {
@@ -459,14 +460,14 @@
         
     }
     img{
-        max-width: 100%;
+        max-width: 60%;
         height: auto;
        
         
     }
     &__grid{
         display: flex;
-        flex-direction: row; 
+        flex-direction: column; 
     }
     &__iframe{
         width: 100%;
@@ -497,6 +498,7 @@
         .swiper-button-prev,
         .swiper-button-next {
             color: variables.$raisinBlack; 
+            display: block;
         }
 
         .swiper-pagination {

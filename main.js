@@ -48,7 +48,45 @@ const unitySwiper = new Swiper('.unity__swiper', {
 });
 
 
+const swiperImages = document.querySelectorAll('.swiper-slide img');
+const modal = document.getElementById('imageModal');
+const modalImage = document.getElementById('modalImage');
 
+swiperImages.forEach(img => {
+    img.addEventListener('click', () => {
+        modal.style.display = "flex";
+        modalImage.src = img.src;
+    });
+});
+
+function closeModal() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+}
+
+const medieval = document.querySelector('.model3D');
+
+medieval.addEventListener('click', function() {
+    window.location.href = 'modelisation_medieval.html'; // Remplacez par l'URL de votre page cible
+});
+
+const anim = document.querySelector('.anim');
+
+anim.addEventListener('click', function() {
+    window.location.href = 'anim3D.html'; // Remplacez par l'URL de votre page cible
+});
+
+
+const web = document.querySelector('.web');
+
+web.addEventListener('click', function() {
+    window.location.href = 'Web.html'; // Remplacez par l'URL de votre page cible
+});
 
 const soldat = document.querySelector('.soldat');
 
@@ -62,3 +100,5 @@ const portail = document.querySelector('.portail');
 portail.addEventListener('click', function() {
     window.location.href = 'portail_halo.html'; // Remplacez par l'URL de votre page cible
 });
+
+
