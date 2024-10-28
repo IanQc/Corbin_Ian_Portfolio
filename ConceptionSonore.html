@@ -12,58 +12,82 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-dark navbar-expand-md">
-        <div class="container navbar__grid">
-            <!-- Logo à gauche -->
-            <a class="navbar-brand navbar__logo" href="index.html">
-                <span id="logo" class="nav-link">Ian Corbin</span>
-            </a>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-md">
+            <div class="container navbar__grid">
     
-            <!-- Burger à droite -->
-            <button class="navbar-toggler navbar__burger" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
+        
+                <!-- Burger à droite -->
+                <button class="navbar-toggler navbar__burger" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Logo à gauche -->
+                <a class="navbar-brand navbar__logo" href="index.html">
+                    <span id="logo" class="nav-link">Ian Corbin</span>
+                </a>
+              <!-- Navigation -->
+              <div id="mainNav" class="collapse navbar-collapse">
+                <ul id="nav-menu" class="navbar-nav d-flex w-100 justify-content-between ">
+                    <li class="nav-item navbar__accueil">
+                        <a href="index.html" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item navbar__nouvelles">
+                        <a href="modelisation_medieval.html" class="nav-link">Modélisation 3D</a>
+                    </li>
+                    <li class="nav-item navbar__nouvelles">
+                        <a href="anim3D.html" class="nav-link">Animation 3D</a>
+                    </li>
+                    <li class="nav-item navbar__nouvelles">
+                        <a href="ConceptionUnity.html" class="nav-link">Conception de jeux 3D</a>
+                    </li>
+                    <li class="nav-item navbar__nouvelles">
+                        <a href="ConceptionSonore.html" class="nav-link">Conception Sonore</a>
+                    </li>
+                    <li class="nav-item navbar__nouvelles">
+                        <a href="Web.html" class="nav-link">Web</a>
+                    </li>
     
-        <!-- Navigation -->
-        <div id="mainNav" class="collapse navbar-collapse">
-            <ul id="nav-menu" class="navbar-nav d-flex w-100 justify-content-between">
-                <li class="nav-item navbar__accueil">
-                    <a href="index.html" class="nav-link">Accueil</a>
-                </li>
-                <li class="nav-item navbar__nouvelles">
-                    <a href="modelisation_medieval.html" class="nav-link">Modélisation 3D</a>
-                </li>
-                <li class="nav-item navbar__nouvelles">
-                    <a href="anim3D.html" class="nav-link">Animation 3D</a>
-                </li>
-                <li class="nav-item navbar__nouvelles">
-                    <a href="ConceptionUnity.html" class="nav-link">Conception de jeux 3D</a>
-                </li>
-                <li class="nav-item navbar__nouvelles">
-                    <a href="Web.html" class="nav-link">Web</a>
-                </li>
-                <li class="nav-item navbar__services">
-                    <a href="Apropos.html" class="nav-link">A propos</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+                    <li class="nav-item navbar__services">
+                        <a href="Apropos.html" class="nav-link">A propos</a>
+                    </li>
+                </ul>
+            </div>
     
-</header>
+            </div>
+        
+              
+        </nav>
+        
+    </header>
 
 <main class="body">
+    <div class="title">
+        <h1>Projets de création d'environnement sonore</h1>
+      </div>
+      <br><br><br>
     <section class="unity">
         <div class="unity__container">
-            <h1>Projet de création d'environnement sonore</h1>
+            <h2>Ambience sous-marin</h2>
+            <hr>
             <br>
             <div class="unity__grid">
                 <p class="unity__content"> Dans ce projet j'ai utiliser un personnage sur de Sketchfab et je lui ai intégrer une animation mocap dans Maya. Ensuite j'ai créer un environnement 3D d'une ville détruite par la guerre. Pour ce faire j'ai regrouper plusieurs dizaines de modeles 3D Sketchfab afin de pouvoir créer un environnement ultra réaliste.  <br>Par requis, j'ai créer plusieurs points de vues différents de la scene que ce soit d'une vue a la premiere personne qu'une vue depuis une caméra de suirveillance. <br> Finallement j'ai rajouter une ambience sonore créer pour le projet, démontrant la solitude d'un soldat solitaire dans une guerre sans fin en plein milleu d'une nuit orageuse. Le tout réunis et modifier en montage vidéo grace a Davinci. </p>
-                <audio src="./sources/medias/ambience_complete.mp3" controls></audio>
+                
+            </div>
+            <audio src="./sources/medias/ambience_complete.mp3" controls></audio>
+            <br>
+            <br><br>
+            <h2>Ambience environnement Soldat Solitaire</h2>
+            <hr>
+            <br>
+            
+                <p class="unity__content"> Dans ce projet j'ai utiliser un personnage sur de Sketchfab et je lui ai intégrer une animation mocap dans Maya. Ensuite j'ai créer un environnement 3D d'une ville détruite par la guerre. Pour ce faire j'ai regrouper plusieurs dizaines de modeles 3D Sketchfab afin de pouvoir créer un environnement ultra réaliste.  <br>Par requis, j'ai créer plusieurs points de vues différents de la scene que ce soit d'une vue a la premiere personne qu'une vue depuis une caméra de suirveillance. <br> Finallement j'ai rajouter une ambience sonore créer pour le projet, démontrant la solitude d'un soldat solitaire dans une guerre sans fin en plein milleu d'une nuit orageuse. Le tout réunis et modifier en montage vidéo grace a Davinci. </p>
                 <br>
                 <audio src="./sources/medias/corbin_ian_traitement_sonore.mp3" controls></audio>
-            </div>
+           
+           
+                <br>
+                
         </div>
     </section>
 <br>

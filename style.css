@@ -78,6 +78,7 @@ a {
   grid-template-columns: 1fr auto;
   align-items: center;
   width: 100%;
+  padding: 0;
 }
 .navbar__logo {
   font-family: "Impact";
@@ -88,7 +89,58 @@ a {
 .navbar__burger {
   text-align: right;
 }
+.navbar .nav-item {
+  padding: 0 2%;
+}
 
+/*
+
+@use "variables";
+
+
+header {
+  background-color: #7c2020;
+  width: 100vw;
+  margin: 0;
+  overflow: hidden;
+}
+
+
+
+#nav-menu {  
+  font-size: variables.$mobileFontSizeTitle;
+}
+
+a {
+  font-family: variables.$FontText;
+}
+
+.navbar {
+  display: flex;
+  //grid-template-rows: 1fr auto; 
+  align-items: center; 
+
+  width: 100%;
+
+
+  &__logo {
+    font-family: variables.$FontLogo;
+    font-size: variables.$mobileFontSizeLogo;
+    color: variables.$white;
+    text-align: right;
+  }
+
+  &__burger {
+    text-align: left;
+
+  }
+  .nav-item{
+    padding:0 5% ;
+  }
+}
+
+
+*/
 .nouvelles {
   width: 100%;
 }
@@ -567,6 +619,16 @@ section:not(:first-of-type) {
   padding: 0 5%;
 }
 
+h2 {
+  color: white;
+}
+
+hr {
+  background-color: white;
+  color: white;
+  border: 5px solid white;
+}
+
 @media screen and (min-width: 768px) {
   a, p, button {
     font-size: 12px;
@@ -599,6 +661,9 @@ section:not(:first-of-type) {
     color: #fff;
     font-size: 12px;
     font-family: "Metrophobic";
+  }
+  .navbar .nav-item {
+    padding: 0;
   }
   .hero {
     max-height: 404px;
@@ -785,7 +850,6 @@ section:not(:first-of-type) {
   }
   header {
     display: block;
-    text-align: center;
   }
   .navbar {
     display: grid;
@@ -801,17 +865,18 @@ section:not(:first-of-type) {
     text-align: left;
   }
   .navbar__burger {
-    grid-area: menu;
     display: none;
   }
   .navbar__collapse {
-    grid-area: links;
-    width: 100%;
+    text-align: right;
   }
   .navbar__accueil, .navbar__nouvelles, .navbar__services, .navbar__equipes, .navbar__FAQ, .navbar__propos {
     color: #fff;
     font-size: 24px;
     font-family: "Metrophobic";
+  }
+  .navbar .nav-item {
+    padding: 0;
   }
   .hero {
     max-height: 565px;

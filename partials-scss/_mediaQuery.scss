@@ -44,7 +44,9 @@
             font-family: variables.$FontText;
         }
       
-
+        .nav-item{
+            padding:0 ;
+          }
       }
 
       .hero {
@@ -267,7 +269,7 @@
 
     header  {
         display: block;
-        text-align: center;
+        
     }
 
     .navbar {
@@ -292,24 +294,25 @@
 
 
         &__burger {
-          grid-area: menu;
+         
           display: none; 
         }
 
         &__collapse {
-            grid-area: links;
-            width: 100%;
+            text-align: right;
         }
-
 
         &__accueil, &__nouvelles, &__services, &__equipes, &__FAQ, &__propos {
             color: variables.$white;
             font-size: variables.$ordiFontSizeText;
             font-family: variables.$FontText;
+           
         }
       
 
-      
+        .nav-item{
+            padding:0 ;
+          }
 
       }
 
