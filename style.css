@@ -175,7 +175,7 @@ a {
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 .nouvelles__Item:hover {
-  transform: scale(1.05);
+  transform: scale(0.95);
   filter: brightness(0.8);
 }
 .nouvelles__img {
@@ -199,6 +199,9 @@ a {
   background-color: #1C5D99;
   color: #fff;
   padding: 15px;
+}
+.nouvelles h2 {
+  color: #1A1423;
 }
 
 .nouvelles2 {
@@ -235,7 +238,7 @@ a {
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 .nouvelles2__Item:hover {
-  transform: scale(1.05);
+  transform: scale(0.95);
   filter: brightness(0.8);
 }
 .nouvelles2__img {
@@ -259,6 +262,9 @@ a {
   background-color: #1C5D99;
   color: #fff;
   padding: 15px;
+}
+.nouvelles2 h2 {
+  color: #1A1423;
 }
 
 .hero {
