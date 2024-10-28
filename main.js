@@ -100,3 +100,8 @@ jeux.addEventListener('click', function() {
 
 
 
+const sonore = document.querySelector('.sonore');
+
+sonore.addEventListener('click', function() {
+    window.location.href = 'ConceptionSonore.html'; // Remplacez par l'URL de votre page cible
+});
