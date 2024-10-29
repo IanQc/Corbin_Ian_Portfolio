@@ -563,6 +563,32 @@ a {
   font-weight: bold;
 }
 
+.titleSon {
+  position: relative;
+  padding: 5vh;
+  text-align: center;
+  background-image: url(../sources/medias/son.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.titleSon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(99, 99, 99, 0.671);
+  z-index: 1;
+}
+
+.titleSon h1 {
+  position: relative;
+  z-index: 2; /* Assure que le texte soit au-dessus de la superposition */
+  font-weight: bold;
+}
+
 section {
   padding: 0 5%;
 }
