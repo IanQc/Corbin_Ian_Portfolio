@@ -182,3 +182,29 @@
 
 
 
+.unity3{
+    width: 100%;
+    overflow: hidden;
+    &__container{
+        background-color: rgba(99, 99, 99, 0.471);
+        height: 100%;
+        padding: 2%;
+    }
+    &__content{
+        color: white;
+        line-height: 1.5;
+        align-self: center;
+    }
+    &__img{
+        width: 100%;
+        
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+       
+        
+    }
+    
+}
+

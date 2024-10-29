@@ -80,9 +80,14 @@ medieval.addEventListener('click', function() {
 const anim = document.querySelector('.anim');
 
 anim.addEventListener('click', function() {
-    window.location.href = 'anim3D.html'; // Remplacez par l'URL de votre page cible
+    window.location.href = 'Animation3D.html'; // Remplacez par l'URL de votre page cible
 });
 
+const anim2 = document.querySelector('.anim2');
+
+anim2.addEventListener('click', function() {
+    window.location.href = 'anim3D.html'; // Remplacez par l'URL de votre page cible
+});
 
 const web = document.querySelector('.web');
 

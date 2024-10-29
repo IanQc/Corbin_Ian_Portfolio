@@ -32,3 +32,30 @@
 
 
 }
+
+
+.application2{
+
+    &__titre{
+        text-align: center;
+    }
+
+    &__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    &__groupe{
+        max-width: 20%;
+        text-align: center;
+        img{
+            width : 50%;
+            height: 50%;
+            object-fit: fill;
+            object-position: top;
+        }
+    }
+
+
+}

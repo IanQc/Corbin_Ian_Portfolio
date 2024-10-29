@@ -56,6 +56,87 @@
     font-weight: bold;
 }
 
+
+.titlePortail {
+    position: relative;
+    padding: 5vh;
+    text-align: center;
+    background-image: url(../sources/medias/portail2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.titlePortail::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(99, 99, 99, 0.671);
+    z-index: 1;
+}
+
+.titlePortail h1 {
+    position: relative;
+    z-index: 2; /* Assure que le texte soit au-dessus de la superposition */
+    font-weight: bold;
+}
+
+
+.titleEnv3D {
+    position: relative;
+    padding: 5vh;
+    text-align: center;
+    background-image: url(../sources/medias/background3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.titleEnv3D::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(99, 99, 99, 0.671);
+    z-index: 1;
+}
+
+.titleEnv3D h1 {
+    position: relative;
+    z-index: 2; /* Assure que le texte soit au-dessus de la superposition */
+    font-weight: bold;
+}
+
+
+.titleUnity {
+    position: relative;
+    padding: 5vh;
+    text-align: center;
+    background-image: url(../sources/medias/TP2_07.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.titleUnity::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(99, 99, 99, 0.671);
+    z-index: 1;
+}
+
+.titleUnity h1 {
+    position: relative;
+    z-index: 2; /* Assure que le texte soit au-dessus de la superposition */
+    font-weight: bold;
+}
+
 section{
     padding: 0 5%;
 }
