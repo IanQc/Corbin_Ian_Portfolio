@@ -1327,7 +1327,7 @@ hr {
     -o-object-position: center;
        object-position: center;
     border: 2px solid #1A1423;
-    border-radius: 50%;
+    border-radius: 20%;
   }
 }
 * {
