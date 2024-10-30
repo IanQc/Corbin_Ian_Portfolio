@@ -913,6 +913,15 @@ a {
      object-position: center;
   border: 2px solid #1A1423;
 }
+.jeuxUnity video {
+  align-self: center;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border: 2px solid #1A1423;
+}
 .jeuxUnity iframe {
   padding: 5%;
   width: 100%;
@@ -1300,6 +1309,15 @@ a {
        object-position: center;
     border: 2px solid #1A1423;
   }
+  .jeuxUnity video {
+    align-self: center;
+    width: 40%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    border: 2px solid #1A1423;
+  }
   .jeuxUnity iframe {
     padding: 5%;
     width: 100%;
@@ -1658,6 +1676,15 @@ a {
     background-color: #C7C7C7;
   }
   .jeuxUnity img {
+    align-self: center;
+    width: 40%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    border: 2px solid #1A1423;
+  }
+  .jeuxUnity video {
     align-self: center;
     width: 40%;
     -o-object-fit: cover;

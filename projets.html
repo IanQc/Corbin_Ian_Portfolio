@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ian Corbin Portfolio</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-md">
+            <div class="container navbar__grid">
+    
+        
+                <!-- Burger à droite -->
+                <button class="navbar-toggler navbar__burger" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Logo à gauche -->
+                <a class="navbar-brand navbar__logo" href="index.html">
+                    <span id="logo" class="nav-link">Ian Corbin</span>
+                </a>
+              <!-- Navigation -->
+              <div id="mainNav" class="collapse navbar-collapse">
+                <ul id="nav-menu" class="navbar-nav d-flex w-100 justify-content-between ">
+                    <li class="nav-item navbar__accueil">
+                        <a href="index.html" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item navbar__nouvelles">
+                        <a href="modelisation_medieval.html" class="nav-link">Modélisation 3D</a>
+                    </li>
+                    <li class="nav-item navbar__nouvelles">
+                        <a href="anim3D.html" class="nav-link">Animation 3D</a>
+                    </li>
+                    <li class="nav-item navbar__nouvelles">
+                        <a href="ConceptionUnity.html" class="nav-link">Conception de jeux 3D</a>
+                    </li>
+                    <li class="nav-item navbar__nouvelles">
+                        <a href="ConceptionSonore.html" class="nav-link">Conception Sonore</a>
+                    </li>
+                    <li class="nav-item navbar__nouvelles">
+                        <a href="Web.html" class="nav-link">Web</a>
+                    </li>
+    
+                    <li class="nav-item navbar__services">
+                        <a href="Apropos.html" class="nav-link">A propos</a>
+                    </li>
+                </ul>
+            </div>
+    
+            </div>
+        
+              
+        </nav>
+        
+    </header>
+
+<main class="body">
+
+  <div class="titleUnity">
+    <h1>Environnement médiéval avec Unity</h1>
+  </div>
+  <br>
+  <br>
+  
+  <section class="jeuxUnity">
+    <div class="jeuxUnity__container">
+       
+        <div class="jeuxUnity__grid">
+            <br>
+            <div class="jeuxUnity__cont">
+                <div>
+                    <h1>dfsfr</h1>
+                    <p class="">J'ai opté pour une atmosphère dense et mystérieuse. En effet, pour créer cette ambiance, j'ai ajouté de la pluie et du brouillard qui s'atténue au fil du temps. Pour ce qui est de l'aspect mystérieux, j'ai modifié la skybox et la couleur du soleil afin de démontrer que l'on n'est pas sur Terre et que l'on est vraiment dans un autre monde médiéval dont on ne connaît rien.</p>
+                </div>
+                
+                <video width="40%"  controls>
+                    <source src="./sources/medias/" type="video/mp4">  
+                </video>
+            </div>
+            <br>
+            <br>
+            <div class="jeuxUnity__cont">
+                <p class="">Se débrouiller avec ce qui est disponible : Puisqu'on devait uniquement utiliser des assets provenant du POLYGON - Sampler Pack de Synty Studios, je devais alors modifier et assembler différents objets afin de créer de nouveaux objets qui ne sont pas présents dans leurs presets. Par exemple, le trône au milieu du château n'est pas un modèle 3D fourni par Synty. J'ai assemblé le trône en utilisant des portes, des piliers, des drapeaux et une table. Pour les piliers à l'intérieur du palais, j'ai utilisé le poteau du drapeau et je l'ai agrandi.</p>
+                <img src="./sources/medias/TP2_01.png" alt="Rendu final 2">
+            </div>
+            <br>
+            <br>
+            <div class="jeuxUnity__cont">
+                <p class="">Création des bâtiments : Les bâtiments ne venaient pas tous ensemble comme on le voit dans le jeu. J'ai assemblé plusieurs sections et objets afin de pouvoir créer plusieurs édifices différents. En effet, j'ai assemblé une boucherie, une fruiterie, un magasin général, des stands de trottoir, une armurerie, une forge, un champ agricole, ainsi qu'une foire.</p>
+                <img src="./sources/medias/TP2_02.png" alt="Rendu final 3">
+            </div>
+            <br>
+            <br>
+            <div class="jeuxUnity__cont">
+                <p class="">Afin de pousser les limites de ce qui était demandé et d'explorer ce qui est possible de faire sur Unity, j'ai décidé de créer des catacombes/tunnels sous le château. Il y a 3 niveaux de tunnels labyrinthiques contenant des salles secrètes, des boucliers d'objectifs pour terminer le jeu, et d'autres éléments.</p>
+                <img src="./sources/medias/TP2_03.png" alt="Rendu final 4">
+            </div>
+            <br>
+            <br>
+            <div class="jeuxUnity__cont">
+                <p class="">Création du menu : Lorsque le joueur appuie sur la touche Escape, il a l'option de quitter le jeu ainsi que de voir les crédits.</p>
+                <img src="./sources/medias/TP2_04.png" alt="Rendu final 5">
+            </div>
+            <br>
+            <br>
+            <div class="jeuxUnity__cont">
+                <p class="">Architecture des fichiers: Pour que la création du jeux soient fluide, j'ai tout organier dans plusieurs dossier. Chaque dossier a sa propre tâche et contient les assets qui lui sont assignées. Dans la hierrachie j'ai un systeme semblable. J'ai organier le contenu par les 3 Zone du jeux, par VFX, par Menu et par layer. Exemple: Zone 1 / Chateau / Chateau intérieur etc... - Chateau extérieur / Bâtiments - Mur - Lumiere - Terrain etc...</p>
+                <img src="./sources/medias/TP2_05.png" alt="Rendu final 6">
+            </div>
+
+           
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+<br>
+<br>
+<section class="application2">
+    <h1 class="application2__titre">Applications et language utilisés</h1>
+    <br>
+    <div class="application2__container">
+        <div class="application2__groupe">
+            <img src="./sources/medias/unity.png" alt="">
+        </div>
+        <div class="application2__groupe">
+            <img src="./sources/medias/c.png" alt="">
+        </div>
+    </div>
+</section>
+<br>
+<br>
+</main>
+
+<footer class="footer">
+    <div class="footer__pages">
+        <a href="" class="footer__item">Accueil</a>
+        <a href="modelisation_medieval.html"class="footer__item">Modélisation 3D</a>
+        <a href="anim3D.html" class="footer__item">Animation 3D</a>
+        <a href="ConceptionUnity.html" class="footer__item">Conception de jeux 3D</a>
+        <a href="ConceptionSonore.html" class="footer__item">Conception Sonore</a>
+        <a href="Web.html" class="footer__item">Web</a>
+        <a href="Apropos.html" class="footer__item">A propos</a>
+    </div>
+    <div class="footer__coordonnees">
+        <p class="footer_item">- Me joindre</p>
+        <p class="footer_item">- Par téléphone :<br>(581) 446-1368
+        <p class="footer_item">- Par courriel :<br>ian.corbin.qc@gmail.com</p>
+    </div>
+    <div class="footer__plus">
+        <p class="footer_item">- Terrebonne</p>
+        <p class="footer_item">- Québec</p>
+        <p class="footer_item">- J6Y 1J8</p>
+    </div>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
