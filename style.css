@@ -361,6 +361,7 @@ a {
   gap: 14px;
   justify-items: center;
   align-items: center;
+  border: none;
 }
 .application__groupe {
   max-width: 50%;
@@ -372,6 +373,10 @@ a {
      object-fit: fill;
   -o-object-position: top;
      object-position: top;
+  border: none;
+}
+.application__groupe a {
+  border: none;
 }
 
 .application2__titre {
@@ -382,12 +387,9 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-.application2__groupe {
-  max-width: 20%;
   text-align: center;
 }
-.application2__groupe img {
+.application2 img {
   width: 50%;
   height: 50%;
   -o-object-fit: fill;
@@ -460,7 +462,6 @@ a {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  border: 2px solid #1A1423;
 }
 .Apropos2 .content2 {
   display: none;
