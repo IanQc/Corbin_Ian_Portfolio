@@ -379,6 +379,9 @@ a {
   border: none;
 }
 
+.application2 {
+  margin-bottom: 10%;
+}
 .application2__titre {
   text-align: center;
 }
@@ -659,6 +662,11 @@ section {
   padding: 0 5%;
 }
 
+a {
+  text-decoration: underline;
+  color: rgb(0, 123, 255);
+}
+
 .unity {
   width: 100%;
   overflow: hidden;
@@ -778,6 +786,10 @@ section {
   display: flex;
   flex-direction: column-reverse;
   gap: 20px;
+}
+.unity2__grid a {
+  text-decoration: underline;
+  color: rgb(0, 123, 255);
 }
 .unity2__iframe {
   width: 100%;
