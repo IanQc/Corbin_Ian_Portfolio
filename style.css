@@ -415,6 +415,10 @@ a {
   word-wrap: break-word;
   line-height: 1.5;
 }
+.Apropos__content .cv {
+  text-decoration: underline;
+  color: rgb(0, 123, 255);
+}
 .Apropos img {
   align-self: center;
   width: 70%;
