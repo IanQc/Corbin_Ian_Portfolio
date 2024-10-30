@@ -387,9 +387,31 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+.application2__groupe {
+  max-width: 20%;
   text-align: center;
 }
-.application2 img {
+.application2__groupe img {
+  width: 50%;
+  height: 50%;
+  -o-object-fit: fill;
+     object-fit: fill;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.application3__titre {
+  text-align: center;
+}
+.application3__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.application3 img {
   width: 50%;
   height: 50%;
   -o-object-fit: fill;
@@ -507,7 +529,7 @@ a {
   position: relative;
   padding: 5vh;
   text-align: center;
-  background-image: url(.././sources/medias/background3.jpg);
+  background-image: url(.././sources/medias/forge_medievale_vue_3_rendu_final.jpg);
   background-position: center;
   background-size: cover;
 }
