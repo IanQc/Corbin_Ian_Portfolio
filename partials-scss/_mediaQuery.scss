@@ -362,12 +362,21 @@
         border: 2px solid variables.$raisinBlack;
         
     }
-    iframe{
+   iframe{
         padding: 5%;
         width: 100%;
         height: 50vw;
     }
-
+    .yt2{
+        align-self: center;
+        width: 40%;
+        height: 20vw;
+        padding: 0;
+        object-fit: cover;
+        object-position: center;
+  
+        
+    }
 }
 } 
 
@@ -804,6 +813,16 @@
             padding: 5%;
             width: 100%;
             height: 50vw;
+        }
+        .yt2{
+            align-self: center;
+            width: 150%;
+            height: 20vw;
+            padding: 0;
+            object-fit: cover;
+            object-position: center;
+      
+            
         }
 
 }
