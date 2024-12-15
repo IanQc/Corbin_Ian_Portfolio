@@ -14,7 +14,7 @@
   color: #fff;
   font-family: "Metrophobic";
   font-size: 10px;
-  grid-template-areas: "pages" "pages" "pages" "coordonnees" "coordonnees" "coordonnees" "plus" "plus" "plus" "copyright";
+  grid-template-areas: "pages coordonnees plus" "pages coordonnees plus" "pages coordonnees plus" "pages coordonnees plus" "copyright copyright copyright";
   -moz-column-gap: 20px;
        column-gap: 20px;
   row-gap: 25px;
@@ -431,6 +431,7 @@ a {
   background-color: rgba(99, 99, 99, 0.471);
   width: 100%;
   padding: 2%;
+  padding-left: 5%;
   display: flex;
   flex-direction: column;
 }
@@ -1009,6 +1010,10 @@ a {
   text-decoration: none; /* Supprime le soulignement */
   color: inherit; /* Conserve la couleur de la police actuelle */
   font: inherit; /* Conserve la font actuelle */
+}
+
+h1 {
+  padding-bottom: 15px;
 }
 
 @media screen and (min-width: 768px) {

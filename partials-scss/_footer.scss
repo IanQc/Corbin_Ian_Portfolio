@@ -8,16 +8,11 @@
     font-family: variables.$FontText;
     font-size: variables.$mobileFontSizeText;
     grid-template-areas: 
-        "pages"
-        "pages"
-        "pages"
-        "coordonnees"
-        "coordonnees"
-        "coordonnees"
-        "plus"
-        "plus"
-        "plus"
-        "copyright";
+"pages coordonnees plus"
+"pages coordonnees plus"
+"pages coordonnees plus"
+"pages coordonnees plus"
+"copyright copyright copyright";
     column-gap: 20px;
     row-gap: 25px;
     text-align: center;
