@@ -900,6 +900,10 @@ a {
   flex-direction: column-reverse;
   background-color: #C7C7C7;
 }
+.jeuxUnity__cont:hover{
+  transform: scale(0.95);
+  filter: brightness(0.8);
+}
 .jeuxUnity__Intro {
   width: 100%;
   display: flex;
