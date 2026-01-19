@@ -1097,7 +1097,7 @@ h1 {
   padding-bottom: 15px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {/* 768px */
   a, p, button {
     font-size: 18px;
   }
